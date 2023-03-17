@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Teste1({list}){
     return (
         <div style={{paddingTop: 30}}>
-            <Link href={"teste1"}
+            <Link href={"teste2"}
               style={{
                 marginLeft: 10,
                 marginTop:30,
@@ -15,7 +15,7 @@ export default function Teste1({list}){
                 borderRadius: 5
               }}
             >
-              Ir para pagina 1
+              Ir para pagina 2
             </Link>
             <div style={{marginTop: 30}}>{JSON.stringify(list)}</div>
         </div>

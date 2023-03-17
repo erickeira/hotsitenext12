@@ -1,24 +1,24 @@
 import Link from "next/link";
 
-export default function Teste1({list}){
+export default function Teste2({list}){
     return (
-        <div style={{paddingTop: 30}}>
-            <Link href={"teste1"}
-              style={{
-                marginLeft: 10,
-                marginTop:30,
-                paddingTop: 10,
-                paddingBottom: 10,
-                paddingLeft:10,
-                paddingRight: 10,
-                backgroundColor: 'red',
-                borderRadius: 5
-              }}
-            >
-              Ir para pagina 1
-            </Link>
-            <div style={{marginTop: 30}}>{JSON.stringify(list)}</div>
-        </div>
+      <div style={{paddingTop: 30}}>
+        <Link href={"teste3"}
+          style={{
+            marginLeft: 10,
+            marginTop:30,
+            paddingTop: 10,
+            paddingBottom: 10,
+            paddingLeft:10,
+            paddingRight: 10,
+            backgroundColor: 'red',
+            borderRadius: 5
+          }}
+        >
+          Ir para pagina 3
+        </Link>
+        <div style={{marginTop: 30}}>{JSON.stringify(list)}</div>
+    </div>
     )
 }
 
